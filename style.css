@@ -1,0 +1,47 @@
+/* Estilo geral da página */
+body {
+    font-family: sans-serif;
+    background-color: #f4f6f9;
+    padding: 30px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Estilo da Tabela */
+#table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Remove linhas duplas */
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    /* Garante as bordas arredondadas */
+}
+
+/* Cabeçalho */
+#table th {
+    background-color: #001832;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Linhas e Células */
+#table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    color: #444;
+}
+
+/* Linhas alternadas (efeito zebra) */
+#table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Efeito ao passar o mouse */
+#table tbody tr:hover {
+    background-color: #f1f3f5;
+}
