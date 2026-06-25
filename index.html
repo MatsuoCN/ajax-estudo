@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajaxjs</title>
+    <title>AjaxJS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="body">
     <h1>Tabela AjaxJS</h1>
-    <table id="table">
+
+    <button id="btnAdd">Carregar Posts</button>
+    <br><br>
+
+    <table id="table" border="1">
         <thead>
             <tr>
+                <th>User ID</th>
                 <th>Post ID</th>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Email</th>
+                <th>Título</th>
+                <th>Conteúdo</th>
             </tr>
         </thead>
 
@@ -24,8 +28,7 @@
         </tbody>
     </table>
 
-    <script src="ajax.js" type="text/javascript"></script>
-
+    <script src="ajax.js"></script>
 </body>
 
 </html>
